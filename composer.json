@@ -1,0 +1,21 @@
+{
+    "name": "jokerv/native",
+    "description": "PhpUnit Testing",
+    "type": "project",
+    "require": {
+      "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "core/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.2"
+    }
+}
